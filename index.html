@@ -155,34 +155,20 @@
     <article id="post-基于HEXO框架在Windows环境下搭建助于自己的博客 7720115ceaa3408e8e4f0a410054067f" class="article article-type-post  article-index" itemscope itemprop="blogPost">
   <div class="article-inner">
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2023/01/15/%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f/">基于HEXO框架在Windows环境下搭建助于自己的博客</a>
-    </h1>
-  
-
-        
-        <a href="/2023/01/15/%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f/" class="archive-article-date">
-  	<time datetime="2023-01-15T08:34:24.719Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-01-15</time>
-</a>
-        
-      </header>
-    
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="基于HEXO框架在Windows环境下搭建助于自己的博客"><a href="#基于HEXO框架在Windows环境下搭建助于自己的博客" class="headerlink" title="基于HEXO框架在Windows环境下搭建助于自己的博客"></a>基于HEXO框架在Windows环境下搭建助于自己的博客</h1><h1 id="一-环境准备"><a href="#一-环境准备" class="headerlink" title="一.环境准备"></a>一.环境准备</h1><h2 id="1-安装nodejs"><a href="#1-安装nodejs" class="headerlink" title="1.安装nodejs"></a>1.安装nodejs</h2><pre><code>    因为hexo是需要nodejs来生成的所以这是一个前置步骤
+        <hr>
+<h2 id="基于HEXO框架在Windows环境下搭建助于自己的博客"><a href="#基于HEXO框架在Windows环境下搭建助于自己的博客" class="headerlink" title="基于HEXO框架在Windows环境下搭建助于自己的博客"></a>基于HEXO框架在Windows环境下搭建助于自己的博客</h2><h1 id="一-环境准备"><a href="#一-环境准备" class="headerlink" title="一.环境准备"></a>一.环境准备</h1><h2 id="1-安装nodejs"><a href="#1-安装nodejs" class="headerlink" title="1.安装nodejs"></a>1.安装nodejs</h2><pre><code>    因为hexo是需要nodejs来生成的所以这是一个前置步骤
 
     在[nodejs.org](https://nodejs.org/en/)中下载
 </code></pre>
-<p>![%{6RL}F&#96;Z(5KSPAB54WYG}G.png](%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f&#x2F;6RLFZ(5KSPAB54WYGG.png)</p>
+<p><img src="https://raw.githubusercontent.com/MikatsukiSora/Image/main/node1.png" alt="https://raw.githubusercontent.com/MikatsukiSora/Image/main/node1.png"></p>
 <p>直接点击18.13.0LTS下载，下载得到安装包后一路next即可，也可以自己修改安装路径</p>
 <p>在官网下载的是最新版本，我用的版本是 12.20.0，其他版本可以在<a target="_blank" rel="noopener" href="https://nodejs.org/en/download/releases/">Previous Releases | Node.js (nodejs.org)</a>进行下载</p>
-<p>![node2.png](F:\blog\blog_cache\基于HEXO框架在Windows环境下搭建自己的博客\基于HEXO框架在Windows环境下搭建助于自己的博客 7720115ceaa3408e8e4f0a410054067f&#x2F;node2.png)</p>
+<p><img src="https://raw.githubusercontent.com/MikatsukiSora/Image/main/node2.png" alt="https://raw.githubusercontent.com/MikatsukiSora/Image/main/node2.png"></p>
 <p>选择一个版本(最好选12.0.0以上的版本)后点击Download</p>
 <p>然后会进入这个页面</p>
-<p><img src="/%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f/node3.png" alt="node3.png"></p>
+<p><img src="https://raw.githubusercontent.com/MikatsukiSora/Image/main/node3.png" alt="https://raw.githubusercontent.com/MikatsukiSora/Image/main/node3.png"></p>
 <p>Windows64位系统点击x64.msi下载安装即可</p>
 <p>安装好以管理员权限打开命令提示符（在搜索栏直接搜索命令提示符，右击以管理员权限运行）</p>
 <p>如果你是以默认路径安装node：则直接打入node-v 和npm -v查看,他会显示你所下载的版本号</p>
@@ -191,13 +177,10 @@
 <p>如果你是自己更改了安装路径，则需要先用 cd “你的安装路径” 进入你的node所在的文件夹下 </p>
 <p>后再运行上述两行代码</p>
 <p>成功结果样式：</p>
-<p><img src="/%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f/node4.png" alt="node4.png"></p>
+<p><img src="https://raw.githubusercontent.com/MikatsukiSora/Image/main/node4.png" alt="https://raw.githubusercontent.com/MikatsukiSora/Image/main/node4.png"></p>
 <p>能有这样的显示就是成功了</p>
-<h2 id="2-安装git"><a href="#2-安装git" class="headerlink" title="2.安装git"></a>2.安装git</h2><pre><code> 进入git官网[Git - Downloading Package (git-scm.com)](https://git-scm.com/download/win)
-
- 
-</code></pre>
-<p><img src="/%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f/git1.png" alt="git1.png"></p>
+<h2 id="2-安装git"><a href="#2-安装git" class="headerlink" title="2.安装git"></a>2.安装git</h2><p> 进入git官网<a target="_blank" rel="noopener" href="https://git-scm.com/download/win">Git - Downloading Package (git-scm.com)</a></p>
+<p><img src="https://raw.githubusercontent.com/MikatsukiSora/Image/main/git1.png" alt="https://raw.githubusercontent.com/MikatsukiSora/Image/main/git1.png"></p>
 <p>点 CLick here to download 进行下载安装即可</p>
 <h1 id="二-生成博客"><a href="#二-生成博客" class="headerlink" title="二.生成博客"></a>二.生成博客</h1><h2 id="1-通过npm安装hexo"><a href="#1-通过npm安装hexo" class="headerlink" title="1.通过npm安装hexo"></a>1.通过npm安装hexo</h2><p>首先以管理员权限打开cmd，进入node所在的文件夹</p>
 <p>敲命令</p>
@@ -217,9 +200,9 @@
 <figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">chdir #查看当前目录</span><br><span class="line">mkdir blog  #在当前目录下创建一个名为blog的文件夹（文件夹名字更可以自己修改）</span><br><span class="line">cd blog   #进入自己创建的那个文件夹</span><br><span class="line">hexo init  #开始安装自己的博客，成功后它会提示你：<span class="title class_">Start</span> blogging <span class="keyword">with</span> <span class="title class_">HExo</span>!</span><br><span class="line">dir   #查看当前目录下生成的文件</span><br><span class="line">hexo s #启动博客</span><br></pre></td></tr></table></figure>
 
 <p>启动博客后会出现</p>
-<p><img src="/%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f/hexo1.png" alt="hexo1.png"></p>
+<p><img src="https://raw.githubusercontent.com/MikatsukiSora/Image/main/hexo1.png" alt="https://raw.githubusercontent.com/MikatsukiSora/Image/main/hexo1.png"></p>
 <p>将通过浏览器访问 <a target="_blank" rel="noopener" href="http://localhost:4000/">http://localhost:4000/</a>就可以进入你的博客</p>
-<p><img src="/%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f/blog1.png" alt="blog1.png"></p>
+<p><img src="https://raw.githubusercontent.com/MikatsukiSora/Image/main/blog1.png" alt="https://raw.githubusercontent.com/MikatsukiSora/Image/main/blog1.png"></p>
 <p>你会发现你的博客已经建好了并且它帮你创建了一篇文章Hello World</p>
 <p>然后我们退出</p>
 <p>在cmd中按Ctrl+c 就可以退出</p>
@@ -229,7 +212,7 @@
 <p>然后可以自己在Description里加点描述，也可以不加</p>
 <p>然后点击create repository仓库就建好了</p>
 <p>建好仓库后会生成一个仓库地址</p>
-<p><img src="/%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f/github4.png" alt="github4.png"></p>
+<p><img src="https://raw.githubusercontent.com/MikatsukiSora/Image/main/github4.png" alt="https://raw.githubusercontent.com/MikatsukiSora/Image/main/github4.png"></p>
 <p>就是ssh后面的那个</p>
 <h2 id="2-在自己的博客目录下安装一个git插件"><a href="#2-在自己的博客目录下安装一个git插件" class="headerlink" title="2.在自己的博客目录下安装一个git插件"></a>2.在自己的博客目录下安装一个git插件</h2><p>通过cmd</p>
 <figure class="highlight jsx"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">cnpm install --save hexo-deployer-git #在blog目录下安装git部署插件</span><br></pre></td></tr></table></figure>
@@ -243,11 +226,11 @@
 <p>然后叉掉，保存</p>
 <p>如果保存时候报错没有权限更改此文件</p>
 <p>那就打开博客目录（blog）</p>
-<p><img src="/%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f/github1.png" alt="github1.png"></p>
+<p><img src="https://raw.githubusercontent.com/MikatsukiSora/Image/main/github1.png" alt="https://raw.githubusercontent.com/MikatsukiSora/Image/main/github1.png"></p>
 <p>选择属性</p>
-<p><img src="/%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f/github2.png" alt="github2.png"></p>
+<p><img src="https://raw.githubusercontent.com/MikatsukiSora/Image/main/github2.png" alt="https://raw.githubusercontent.com/MikatsukiSora/Image/main/github2.png"></p>
 <p>选安全，然后点编辑</p>
-<p><img src="/%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f/github3.png" alt="github3.png"></p>
+<p><img src="https://raw.githubusercontent.com/MikatsukiSora/Image/main/github3.png" alt="https://raw.githubusercontent.com/MikatsukiSora/Image/main/github3.png"></p>
 <p>将这4个的写入全部勾上</p>
 <p>就可以修改了</p>
 <h2 id="4-设置Git账号和用户名"><a href="#4-设置Git账号和用户名" class="headerlink" title="4.设置Git账号和用户名"></a>4.设置Git账号和用户名</h2><p>打开我们之前下载的git文件夹</p>
@@ -298,143 +281,6 @@
       
         <p class="article-more-link">
           <a class="article-more-a" href="/2023/01/15/%E5%9F%BA%E4%BA%8EHEXO%E6%A1%86%E6%9E%B6%E5%9C%A8Windows%E7%8E%AF%E5%A2%83%E4%B8%8B%E6%90%AD%E5%BB%BA%E5%8A%A9%E4%BA%8E%E8%87%AA%E5%B7%B1%E7%9A%84%E5%8D%9A%E5%AE%A2%207720115ceaa3408e8e4f0a410054067f/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-我的第一篇博客" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2023/01/14/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">我的第一篇博客</a>
-    </h1>
-  
-
-        
-        <a href="/2023/01/14/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/" class="archive-article-date">
-  	<time datetime="2023-01-14T13:53:41.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-01-14</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2023/01/14/%E6%88%91%E7%9A%84%E7%AC%AC%E4%B8%80%E7%AF%87%E5%8D%9A%E5%AE%A2/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-hello-world" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2023/01/14/hello-world/">Hello World</a>
-    </h1>
-  
-
-        
-        <a href="/2023/01/14/hello-world/" class="archive-article-date">
-  	<time datetime="2023-01-14T13:49:03.259Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2023-01-14</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2023/01/14/hello-world/">展开全文 >></a>
         </p>
       
 
